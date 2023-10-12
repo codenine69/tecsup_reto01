@@ -1,0 +1,319 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del menú */
+header {
+  background-color: #00aab5;
+  color: white;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#codigo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+ 
+
+/* Estilos de la sección hero */
+.hero {
+  position: relative;
+  width: 100%;
+  background-color: #7299fe;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: none; /* Eliminamos el fondo azul transparente */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Alineamos el fondo con el lado izquierdo */
+  background-color: rgba(173, 216, 230, 0.7); /* Aplicamos el fondo celeste transparente solo al texto */
+  padding: 10px; /* Añadimos un espacio alrededor del texto para que el fondo sea visible solo alrededor del texto */
+  border-radius: 10px; /* Bordes redondeados en todos los lados */
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  color: white;
+  margin: 0; /* Eliminamos el margen predeterminado del h2 */
+}
+
+
+/*my skillis progressbar*/
+/* Estilos para la sección My Skills */
+.my-skills {
+  background-color: #7299fe; /* Fondo de color celeste claro */
+  padding: 40px 0;
+  text-align: center; /* Centrar el título y el contenido */
+}
+
+.my-skills-title {
+  font-size: 36px; /* Tamaño grande del título */
+  color: #000; /* Color negro del título */
+  margin-bottom: 20px; /* Agregar espacio entre el título y las columnas */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Agregar separación entre las columnas */
+}
+
+.column {
+  flex: 1;
+  padding: 20px; /* Agregar separación entre el contenido de las columnas */
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.progress {
+  background-color: white;
+  border-radius: 20px; /* Bordes redondeados para las barras de progreso */
+}
+
+.progress-bar {
+  background-color: #071626; /* Color de las barras de progreso (azul) */
+  height: 20px;
+  border-radius: 20px; /* Bordes redondeados para las barras de progreso */
+}
+/* Estilos para la sección de Servicios */
+.services {
+  background-color: #ff6b6b; /* Fondo rojo claro */
+  padding: 40px 0;
+  text-align: center; /* Centrar el contenido */
+}
+
+.services-title {
+  font-size: 36px; /* Tamaño grande del título */
+  color: #fff; /* Color blanco del título */
+  margin-bottom: 20px; /* Agregar espacio entre el título y los servicios */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Espacio entre las columnas */
+}
+
+.service {
+  flex: 1;
+  padding: 20px; /* Espacio entre los servicios */
+}
+
+.service-icon {
+  text-align: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #fff; /* Fondo blanco del círculo */
+  border-radius: 50%; /* Hacer el círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px; /* Espacio entre el círculo y la descripción */
+}
+
+.circle span {
+  font-size: 24px;
+  color: #ff6b6b; /* Color rojo claro para el check */
+}
+
+.service-description {
+  text-align: center;
+  color: #fff; /* Color blanco para la descripción */
+}
+
+.service-description p {
+  margin: 5px 0;
+}
+
+/* Estilos para la sección de Portafolio */
+.portfolio {
+  background-color: #ffd233; /* Fondo rojo claro */
+  padding: 40px 0;
+  text-align: center; /* Centrar el contenido */
+}
+
+.portfolio-title {
+  font-size: 36px; /* Tamaño grande del título */
+  margin-bottom: 20px; /* Agregar espacio entre el título y los proyectos */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Espacio entre las columnas */
+}
+
+.column {
+  flex: 1;
+}
+
+.portfolio-item {
+  margin-bottom: 20px; /* Espacio entre los proyectos */
+}
+
+.rounded-image {
+  border-radius: 10px; /* Bordes redondeados para las imágenes */
+  max-width: 100%;
+}
+
+/* Estilos para la sección de Clientes */
+.clients {
+  background-color: #3f4e62; /* Fondo azul oscuro */
+  padding: 40px 0;
+  text-align: center; /* Centrar el contenido */
+  color: #add8e6; /* Color celeste claro para el texto */
+}
+
+.clients-title {
+  font-size: 36px; /* Tamaño grande del título */
+  margin-bottom: 20px; /* Agregar espacio entre el título y las imágenes */
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.client-images {
+  display: flex;
+  justify-content: space-between; /* Espacio entre las imágenes */
+}
+
+.rounded-image{
+  border-radius: 10px; /* Bordes redondeados para las imágenes */
+  max-width: 100%;
+ 
+}
+
+/* Establece un fondo verde claro para la sección */
+.contact {
+  background-color: #16a085;
+  padding: 20px;
+}
+
+/* Alinea el texto del título al centro y establece un color de texto */
+.contact-title {
+  text-align: center;
+  color: #333;
+}
+
+/* Estiliza el contenedor principal */
+.container-contact {
+  max-width: 800px; /* Ancho máximo del container-contact */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Espacio alrededor del contenedor */
+}
+
+/* Define el ancho de las columnas de entrada de texto */
+.column-contact {
+  display: flex;
+  justify-content: space-between; /* Espacio entre las columnas */
+  padding: 10px;
+}
+
+/* Estilo para los campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px; /* Márgen izquierdo de 10px */
+  margin-right: 10px; /* Márgen derecho de 10px */
+}
+
+.columna-fuera {
+  max-width: 800px; /* Ancho máximo del container-contact */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Espacio alrededor del contenedor */ 
+  text-align: center;
+  
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.centrado {
+  display: inline-block;
+  background-color: blue; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  border: none; /* Quita el borde predeterminado */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px 20px; /* Relleno para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+ /*ara footrer*/
+ .footer {
+  background-color: #00aab5; /* Color de fondo verde bebé */
+  text-align: center; /* Centra el contenido horizontalmente */
+  padding: 10px; /* Espacio interno para el contenido */
+}
+
+.izquierda {
+  float: left; /* Alinea a la izquierda */
+}
+
+.derecha {
+  float: right; /* Alinea a la derecha */
+}
